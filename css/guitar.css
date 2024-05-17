@@ -4,6 +4,9 @@ font-family: "Ojuju", sans-serif;
 */
 body {
     font-family: "Handlee", cursive;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -81,9 +84,12 @@ nav ul li a:hover {
 
 footer {
     font-weight: 500;
-    position: absolute;
-    right: 350px;
-    bottom: 10px;
+    margin-top: auto;
+}
+
+footer p {
+    margin-left: 700px;
+
 }
 
 h2 {
@@ -261,53 +267,15 @@ h2 {
 }
 
 .tipo img:hover {
-    max-width: 157px;
+    transform: scale(1.05);
     cursor: pointer;
 }
 
 .modelos {
-    padding: 55px;
+    padding-top: 55px;
+    padding-bottom: 55px;
     text-align: center;
-}
-
-#amplis {
-    width: 680px;
-    opacity: .5;
-}
-
-#amplis:hover {
-    opacity: 1;
-    width: 685px;
-}
-
-#clasic {
-    width: 680px;
-    opacity: .5;
-}
-
-#clasic:hover {
-    opacity: 1;
-    width: 685px;
-}
-
-#electric {
-    opacity: .5;
-    width: 680px;
-}
-
-#electric:hover {
-    opacity: 1;
-    width: 685px;
-}
-
-#pedals {
-    opacity: .5;
-    width: 680px;
-}
-
-#pedals:hover {
-    opacity: 1;
-    width: 685px;
+    width: 960px;
 }
 
 .cursos {
@@ -344,21 +312,20 @@ h2 {
 }
 
 .nivel {
-    width: 750px;
+    width: 960px;
     height: 330px;
     border: 1px solid #080808;
     border-radius: 5px;
     margin: 15px 0;
     margin-top: 15px;
     gap: 32px;
-    display: flex;
-    flex-direction: column;
 }
 
 .nivel h3 {
     display: flex;
     justify-content: center;
-    padding-right: 135px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     font-size: 40px;
     font-weight: 200;
     font-style: italic;
@@ -373,130 +340,18 @@ h2 {
 
 .nivel ul {
     margin-top: 0;
+    padding-top: 25px;
     padding-left: 55px;
     padding-right: 25px;
 }
 
-.suscribe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.medios {
-    padding: 50px;
-    padding-top: 50px;
-    width: 200px;
-    padding-right: 35px;
-    padding-left: 55px;
-}
-
-#suscribirse {
-    padding: 10px;
-    font-size: 17px;
-    background-color: rgb(83, 89, 89);
-    color: beige;
-    border-radius: 10%;
-    margin-left: 20px;
-}
-
-#suscribirse:hover {
-    color: rgb(181, 142, 33);
-    background-color: black;
-    cursor: pointer;
-}
-
-.ingreso {
-    border: 1px solid #080808;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-top: 50px;
-    padding-right: 350px;
-    padding-bottom: 25px;
-}
-
-#sign {
-    padding: 10px;
-    font-size: 17px;
-    background-color: rgb(83, 89, 89);
-    color: beige;
-    border-radius: 10%;
-}
-
-#sign:hover {
-    color: rgb(181, 142, 33);
-    background-color: black;
-    cursor: pointer;
-}
-
-.login {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    text-align: center;
-    margin-top: 40px;
-    padding-top: 55px;
-    padding-right: 75px;
-    border: 1px solid #000000;
-    border-radius: 5px;
-}
-
-.input {
-    padding: 15px;
-}
-
-.form-label {
-    padding-right: 54px;
-}
-
-.pass {
-    padding-right: 15px;
-}
-
-.col-12 {
-    padding: 20px;
-    padding-left: 100px;
-}
-
-.boton_login {
-    font-family: "Handlee", cursive;
-    background-color: rgb(83, 89, 89);
-    color: beige;
-    margin-bottom: 45px;
-    padding: 10px;
-    border-radius: 10%;
-}
-
-.boton_login:hover {
-    color: rgb(181, 142, 33);
-    background-color: black;
-    cursor: pointer;
-}
-
-#vip {
-    color: beige;
-    background-color: #000000;
-    text-decoration: none;
-    padding: 3px 6px;
-    display: block;
-    text-align: center;
-    margin-left: 415px;
-    margin-right: 415px;
-}
-
-#vip a{
-    font-size: 16px;
-}
-
-.boton_atras,
-.boton_atras_suscripcion {
+.boton_atras {
     display: flex;
     flex-direction: row;
 }
 
 .link_atras {
-    margin-left: 275px;
+    margin-left: 380px;
     width: 65px;
     height: 65px;
 }
@@ -508,16 +363,6 @@ h2 {
     margin-left: 18px;
 }
 
-.boton_atras_suscripcion {
-    margin-top: 49px;
-}
-
-.boton_atras_suscripcion h5 {
-    display: flex;
-    flex-direction: row;
-    font-weight: 100;
-    margin-left: 18px;
-}
 
 #atras {
     transform: rotate(180deg);
