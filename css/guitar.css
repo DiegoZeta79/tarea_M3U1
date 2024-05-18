@@ -9,6 +9,12 @@ body {
     min-height: 100vh;
 }
 
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/*inicio del header*/
 header {
     background-color: rgb(0, 0, 0);
     display: inline-flex;
@@ -40,6 +46,10 @@ header h1 {
     padding-left: 80px;
     padding-right: 160px;
 }
+
+/*fin del header*/
+
+/*inicio de la barra*/
 
 nav {
     background-color: rgb(83, 89, 89);
@@ -77,10 +87,9 @@ nav ul li a:hover {
     color: rgb(210, 185, 107);
 }
 
-.holder {
-    max-width: 960px;
-    margin: 0 auto;
-}
+/*fin de la barra*/
+
+/*inicio del footer*/
 
 footer {
     font-weight: 500;
@@ -91,6 +100,10 @@ footer p {
     margin-left: 700px;
 
 }
+
+/*fin del footer*/
+
+/*inicio de home*/
 
 h2 {
     color: rgb(0, 0, 0);
@@ -149,6 +162,10 @@ h2 {
     margin: 12px 0;
 }
 
+/*fin de home*/
+
+/*inicio de nosotros*/
+
 .personas {
     display: flex;
     justify-content: space-evenly;
@@ -201,6 +218,10 @@ h2 {
     padding-left: 55px;
 }
 
+/*fin de nosotros*/
+
+/*inicio de leyendas*/
+
 .leyendas {
     border: 1px solid #080808;
     border-radius: 5px;
@@ -241,6 +262,10 @@ h2 {
     text-align: end;
 }
 
+/*fin de leyendas*/
+
+/*inicio de la guitarra*/
+
 .tipos {
     display: flex;
     justify-content: space-evenly;
@@ -278,8 +303,14 @@ h2 {
     width: 960px;
 }
 
+/*fin de la guitarra*/
+
+/*inicio de cursos*/
+
 .cursos {
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .cursos a {
@@ -297,7 +328,9 @@ h2 {
 }
 
 .curso {
-    padding: 40px;
+    width: 960px;
+   padding-top: 25px;
+   padding-bottom: 25px;
 }
 
 .curso ul li {
@@ -313,7 +346,7 @@ h2 {
 
 .nivel {
     width: 960px;
-    height: 330px;
+    height: 320px;
     border: 1px solid #080808;
     border-radius: 5px;
     margin: 15px 0;
@@ -345,6 +378,10 @@ h2 {
     padding-right: 25px;
 }
 
+/*fin de curso*/
+
+/*inicio de ir ataras*/
+
 .boton_atras {
     display: flex;
     flex-direction: row;
@@ -371,3 +408,5 @@ h2 {
 #atras:hover {
     width: 65.5px;
 }
+
+/*fin de ir atras*/
